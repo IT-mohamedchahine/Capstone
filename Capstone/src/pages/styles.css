@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Markazi+Text:wght@400;500;600;700&display=swap');
+
+.homePage{
+    overflow-y: scroll;
+    height: 100%;
+    /* background-color: red; */
+}
+/* main{
+    position: relative;
+} */
+.reservationForm{
+    background-color: #495E57;
+    width: min(95%,40rem);
+    margin-top: 100px;
+    margin-inline:auto;
+    padding: 10px 50px;
+    font-family: markazi Text;
+}
+
+.reservationForm h3{
+color: #F4CE14;
+font-size: 40px;
+text-align: center;
+}
+.reservationForm form{
+    display: grid;
+    grid-column: 1fr;
+}
+.reservationForm label{
+    font-size: 20px;
+    color: white;
+    font-family: karla;
+    margin: 5px 0;
+}
+.reservationForm input{
+    background-color: #EDEFEE;
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    padding: 10px ;
+    margin: 5px 0;
+}
+.reservationForm select{
+    background-color: #EDEFEE;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    margin: 5px 0;
+    padding: 10px ;
+}
+.reservationForm button{
+    border: none;
+    background-color: #F4CE14;
+    color: black;
+    font-weight: 800;
+    padding: 20px 10px;
+    align-items: center;
+    width: 250px;
+    font-size: 18px;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+  display: flex;
+  justify-content: center;
+border-radius: 5px;
+  text-align: center;
+  margin: 5px 0;
+  margin-inline: auto;
+}
+.reservationForm button:hover{
+    background-color: black;
+    color: #F4CE14;
+    border-bottom: 3px solid #F4CE14;
+}
+.confirmForm{
+    background-color: #495E57;
+    width: min(45%,40rem);
+    padding: 20px 40px;
+    margin-inline: auto;
+    position: absolute;
+top: 50%;
+left: 20%;
+}
+.confirmForm h3{
+    font-family: markazi Text;
+    color: #F4CE14;
+    font-size: 60px;
+    text-align: center;
+}
+.confirmForm p{
+    font-family: Karla;
+    text-align: center;
+    font-size: 20px;
+}
+.confirm{
+background-color: rgba(0,0,0,0.85);
+width: 100%;
+margin-inline: auto;
+}
+.confirmPage{
+position: relative;
+}
+.confirmForm p:nth-child(1){
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+    margin-inline:auto ;
+    color: #495E57;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+}
